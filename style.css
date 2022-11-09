@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #23252C;
+}
+
+.body{
+    width: 300px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center */
+    text-align: center;
+    background-color: #1A1B21;
+    color: #ffffff;
+    border-radius: 10px;
+    
+}
+.text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.name{
+    padding-bottom: 10px;
+}
+.title{
+    color: #F3BF99;
+}
+
+.profile-photo{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+.email-button{
+    display: flex;
+    width: 100px;
+    text-align: center;
+    justify-content: space-around;
+    border:none;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+.email-icon{
+    padding-right: 20px;
+}
+
+.about-section--container{
+    text-align: left;
+    padding-bottom: 30px; 
+}
+.about-section--heading{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.about-section--text{
+    color: #DCDCDC
+}
+
+.intrest-section--container{
+    text-align: left;
+    padding-bottom: 30px;
+}
+.intrest-section--heading{
+    padding-bottom: 10px
+}
+.intrest-section--text{
+    color: #DCDCDC;
+}
+
+.footer--social{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #161619;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    background-color: #918E9B;
+    border-radius: 10px;
+}
